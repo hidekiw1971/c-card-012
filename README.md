@@ -1,10 +1,22 @@
 # compornent（共通部品）
 
 ## イメージ画像
+<img width="412" alt="image" src="https://user-images.githubusercontent.com/99580997/161290895-27564dc0-6451-4e70-aabd-1a778e4abf25.png">
+
 
 ## 概要
 
 - カード（アスペクト比を固定して画像の縦横比を保つ方法）※aspect-ratio: 4/3;を使用したケース
+- `aspect-ratio: 4/3;`を使用してアスペクト比を維持する。
+- 
+- `.card {`
+- `display: inline-block;`
+- `width: rem(375);`
+- `aspect-ratio: 4/3;`
+- `background-color: #f00;`
+- `overflow: hidden;`
+- `}`
+- 
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
@@ -26,10 +38,14 @@
 ## w3c html チェック結果
 
 - https://validator.w3.org/nu/
+- <img width="757" alt="image" src="https://user-images.githubusercontent.com/99580997/161290973-877c5d7d-2b54-4f04-a0c5-38a598c52a54.png">
+
 
 ## w3c css チェック結果
 
 - https://jigsaw.w3.org/css-validator/
+- <img width="950" alt="image" src="https://user-images.githubusercontent.com/99580997/161291030-8e43eb8e-c172-4baf-ae8f-c8700032f4cb.png">
+
 
 ## portfolio url:
 
